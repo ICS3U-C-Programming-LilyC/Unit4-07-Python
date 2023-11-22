@@ -6,11 +6,8 @@
 
 
 def main():
-    # Initiating counter variable
-    counter = 0
-
     # Initiating For loop that will print the integers from 1000 to 2000.
-    for counter in range(1000, 2000, 1):
+    for counter in range(1000, 2001, 1):
         # If statement inside loop.
         # If the counter is equal to 1000, then print the counter on the same line.
         if counter == 1000:
